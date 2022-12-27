@@ -1,7 +1,7 @@
 def jogar():
-    print("**********")
-    print("foquinha, rsrs")
-    print("**********")
+    print(25*"/")
+    print("/   O Jogo da Forca     / ")
+    print(25*"/","\n")
 
     enforcou = False
     acertou = False

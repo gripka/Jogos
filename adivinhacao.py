@@ -2,16 +2,16 @@
 def jogar():
     import random
 
-    print("**************")
-    print("* Luix, rsrs *")
-    print("**************")
+    print(29*"/")
+    print("/   O Jogo da Adivinhação   / ")
+    print(29*"/","\n")
 
     #numero_secreto = 5
     numero_secreto = round(random.randrange(1, 101))
     total_de_tentativas = 0
     #pontos = 1000
     rodada = 1
-    print(numero_secreto)
+    #print(numero_secreto)
 
     print("Escolha a dificuldade")
     print("(1) Facil (2) Médio (3) Difícil")

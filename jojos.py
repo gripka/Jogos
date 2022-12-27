@@ -1,9 +1,9 @@
 import forca
 import adivinhacao
 
-print("***********************")
-print("* Escolha o seu jojo! *")
-print("***********************")
+print(28*"/")
+print("/   Escolha o seu jogo     / ")
+print(28*"/","\n")
 
 while input == 0 or 3:
 
