@@ -1,13 +1,29 @@
 def jogar():
+    import random
+
     print(25*"/")
     print("/   O Jogo da Forca     / ")
     print(25*"/","\n")
+
+    arquivo = open("palavras.txt" , "r")
+    palavras = []
+
+    for linha in arquivo:
+        linha = linha.strip()
+        palavras.append(linha)
+
+    arquivo.close()
+
+    numero = random.randrange(0, len(palavras))
+    palavra_secreta = palavras [numero].upper()
+
+    #print(palavras)
 
     enforcou = False
     acertou = False
     erros = 0
 
-    palavra_secreta = "topper".upper()
+    #palavra_secreta = "topper".upper()
     letras_acertadas = ["_" for letra in palavra_secreta]
 
     print(letras_acertadas)
